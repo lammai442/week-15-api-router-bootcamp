@@ -82,7 +82,7 @@ function App() {
 				<label>
 					{' '}
 					Sök efter ditt pokemon
-					<input type="text" name="inputs" />
+					<input type='text' name='inputs' />
 				</label>
 				<button>Sök</button>
 			</form>
