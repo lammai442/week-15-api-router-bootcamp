@@ -81,7 +81,7 @@ function App() {
 			<form onSubmit={handleFormSubmit}>
 				<label>
 					{' '}
-					Sök efter ditt pokemon
+					Sök efter ditt pokemon:
 					<input type='text' name='inputs' />
 				</label>
 				<button>Sök</button>
