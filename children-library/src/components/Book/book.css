@@ -1,0 +1,43 @@
+.book {
+	aspect-ratio: 4 / 5;
+	display: flex;
+	color: var(--white);
+
+	.book__spine {
+		border-right: 2px solid var(--black);
+		flex: 1;
+	}
+
+	.book__cover {
+		flex: 19;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+		gap: 0.25rem;
+		padding: 0.5rem;
+
+		.book__title {
+			font-size: 1.25rem;
+		}
+
+		.book__author {
+			font-size: 0.75rem;
+		}
+
+		.book__title--larger {
+			font-size: 2.5rem;
+		}
+
+		.book__author--larger {
+			font-size: 1rem;
+		}
+	}
+
+	.book__cover--larger {
+		padding: 1.5rem;
+	}
+}
+
+.book-link {
+	flex: 1;
+}

@@ -1,0 +1,10 @@
+.icon {
+	color: var(--black);
+	background-color: var(--lighter-grey);
+	font-size: 3rem;
+	width: 4rem;
+	aspect-ratio: 1;
+	display: grid;
+	place-content: center;
+	border-radius: 50%;
+}

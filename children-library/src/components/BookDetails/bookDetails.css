@@ -1,0 +1,28 @@
+.details {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	color: var(--white);
+
+	.details__title {
+		font-size: 2.5rem;
+	}
+
+	.details__author {
+		font-size: 1rem;
+		font-weight: 400;
+	}
+
+	.details__info {
+		background-color: var(--light-grey);
+		padding: 1rem;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 1rem;
+
+		.details__text--bold {
+			font-weight: 700;
+		}
+	}
+}

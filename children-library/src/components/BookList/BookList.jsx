@@ -1,7 +1,14 @@
 import './bookList.css';
+import Book from '../Book/Book';
 
-function BookList() {
-	return <section className='page__list'></section>;
+function BookList({ books }) {
+	return (
+		<section className='page__list'>
+			{books.map((book) => {
+				return <Book book={book} key={book.id} />;
+			})}
+		</section>
+	);
 }
 
 export default BookList;
